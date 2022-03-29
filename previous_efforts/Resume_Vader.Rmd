@@ -1,0 +1,424 @@
+---
+title: "Vinita Vader's resume"
+author: Vinita Vader
+date: "`r Sys.Date()`"
+output:
+  output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles_html.css', 'resume']
+knit: pagedown::chrome_print
+
+---
+
+Aside
+================================================================================
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> vvader@uoregon.edu
+- <i class="fa fa-github"></i> [github.com/vvader24](https://github.com/vvader24)
+- <i class="fa fa-phone"></i> +1 657-252-7501
+- For more information, please contact me via email.
+
+
+Statistical Areas of Expertise {#statsareas}
+--------------------------------------------------------------------------------
+
+- Machine Learning (Regression analysis, Principal Component analysis, Factor analysis, Network analysis)
+
+- Data Visualization
+
+- Advanced skills in R 
+
+- Intermediate skills in Python, SQL
+
+Language expertise {#languages}
+--------------------------------------------------------------------------------
+
+- _Marathi_, _Hindi_, _English_ [read, write, speak fluently].
+
+- _Sanskrit_, _Konkani_ [read, write fluently] .
+
+- _French_, _Spanish_ [read, understand].
+
+- _Gujarathi_, _Punjabi_, _Bengali_ [understand].
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Vinita Vader {#title}
+--------------------------------------------------------------------------------
+
+### Doctoral Student in Personality and Cultural Psychology
+
+I am currently a PhD student at University of Oregon. My research is focused on understanding the _Cultural differences_ embedded in _Personality_ and _Values_. I am interested in using machine learning techniques to build psychological mappings of people across societies and design a quantifiable model of culture. Psychometrics, building culture specific ( _emic_ ) surveys, and applying quantitative methods to design methods for psychological data sets. Psychometrics, building culture specific surveys, and applying quantitative methods to psychological data analysis are some of my other interests. My dissertation is focused on exploring optimization algorithms in finding culturally meaningful groups in a population. This work contributes towards an academic understanding of culture, theoretical grounding for social media studies and  human policy research. Here is a [preliminary groundwork](https://vader-capstonebook.netlify.app/) for the study. 
+ 
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### St. Xavier's College (Autonomous), University of Mumbai
+
+B.A. in Psychology
+
+Mumbai, India
+
+2014
+
+Thesis: Study of interpersonal attraction in adolescents
+
+### Vivekanad College, University of Mumbai
+
+
+M.A. in Applied Psychology 
+
+Mumbai, India
+
+2016
+
+Thesis: Working Memory Capacity in Caregivers of Alcoholics
+
+
+
+### Prafulta Psychological   Service
+
+
+Post Graduate Diploma in Advanced Skills in Counselling,
+
+Mumbai, India
+
+2017
+
+
+
+### University of Oregon 
+
+
+Educational Data Science Specialization [info](https://education.uoregon.edu/sites/education2.uoregon.edu/files/eds_specialization_v3.pdf)
+
+Eugene, Oregon
+
+2020 - 2022
+
+
+- [World Values Survey data - _Flex dashboard_](https://vvader24.github.io/EDLD2_FinalProject/)
+ 
+\n
+
+ - [Tutorial on functional programming](https://shijing-z.github.io/EDLD653-Final-Project/)
+ 
+\n
+
+ - [Model Comparison for Hate Speech detection](https://github.com/vvader24/Hate-Speech-Project/blob/master/scripts/index.Rmd) 
+
+\n
+
+- [Quantifying Cultural groups-_bookdown_](https://vader-capstonebook.netlify.app/)
+
+
+
+### University of Oregon 
+
+
+PhD in Personality Psychology
+
+Eugene, Oregon
+
+2019 - Current
+
+Awards and Recognitions {data-icon="fa-solid fa-trophy"}
+--------------------------------------------------------------------------------
+
+### Academic Excellence Award
+
+Department of Psychology, Vivekanad College, Univeristy of Mumbai
+
+Mumbai, India
+
+2017
+
+### Norman D. Sundberg Fellowship in Psychology
+
+Department of Psychology, University of Oregon
+
+Eugene, Oregon
+
+2020
+
+
+### Norman D. Sundberg Fellowship in Psychology
+
+Department of Psychology, University of Oregon
+
+Eugene, Oregon
+
+2021
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Mithibai College of Arts, University of Mumbai 
+
+Lecturer
+
+Mumbai, India
+
+2017-2018
+
+- Graduate courses: Statistics for Psychology, Dissertation Guide
+- Undergraduate courses: Social Psychology, Counseling Psychology, Cognitive Psychology, Industrial Psychology, Experimental Psychology (Practicum and theory) 
+
+
+### University of Mumbai 
+
+Visiting Lecturer
+
+Mumbai, India
+
+2018-2019
+
+- Graduate courses: Statistics for Psychology, Psychological Testing and Psychometrics Practicals
+
+
+### University of Oregon
+
+Teaching fellow
+
+OR, USA
+
+2019-current
+
+- _Sole instructor_
+  - Research Methods PSY 303 (Spring 2021) 
+ 
+- _Co instructor_ 
+  - Personality Psychology PSY 307 (Summer 2021)
+  
+- _Lab instructor_ 
+  - Statistical Methods PSY 611 (Fall 2021)
+   - [Functional programming Lab](https://uopsych.github.io/psy611/labs/lab-3.html) - this was built for the Graduate Statistics Course I TA'd for in Fall 2021
+  - Statistics PSY 302 (Winter 2022)
+
+- _Teaching assistant_ 
+  - Personality Psychology PSY (Fall 2019, Winter 2020, Spring 2020)
+  - Cultural Psychology PSY (Fall 2020)
+  - Evolutionary Psychology PSY 410 (Spring 2020)
+  
+- _Other_ 
+  - R Bootcamp assistant (Summer 2021)[link](https://uopsych-r-bootcamp-2021.netlify.app/)
+  
+
+
+Clinical Experience {data-icon="fa-regular fa-clipboard-check"}
+--------------------------------------------------------------------------------
+
+### Thane Mental Hospital
+
+Clinical Psychology intern
+
+Thane, India
+
+2015
+
+::: concise
+- Mental status examinations 
+- Assessments - MMPI
+- Diagnosis (DSM-5, ICD 10)
+:::
+
+
+### Sevadaan Special School
+
+Clinial intern
+
+Mumbai, India
+
+2015
+
+::: concise
+- Mental status examinations 
+- Assessments - Kamat- Binet Test of Intelligence, VSMS, Seguin-Form Board, Children Apperception Test,
+- Diagnosis (DSM-5, ICD 10)
+:::
+
+### Masina Hospital’s Drug Rehabilitation Center
+
+Clinial intern
+
+Mumbai, India
+
+2016
+
+::: concise
+- Mental status examinations 
+- Assessments - Rorschach Ink Blot Test, Bender- Gestalt Test, Thematic Apperception Test,  BDI
+- Diagnosis (DSM-5, ICD 10)
+:::
+
+Publications and Posters {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Factors affecting Academic Achievement in students : An empirical study - understanding the interaction between creativity, intelligence and academic achievement [link](http://niepa.ac.in/new/download/Publications/JEPA_(15%20years)/JEPA%202018_Vol-32(1-4)/JEPA_JUL-2018_3.pdf)
+
+Journal of Education and Planning. 2018; DOI: 10.13140/RG.2.2.32264.88328 
+
+N/A
+
+2019
+
+**Vader**, Purohit, and Pandit. 
+
+### What Lies at the Center of Rosenberg Self-Esteem Scale? Network Analysis and Latent Structure of Rosenberg Self-Esteem Scale for Indian Data [link](https://www.researchgate.net/publication/333080178_What_Lies_at_the_Center_of_Rosenberg_Self-Esteem_Scale_Network_Analysis_and_Latent_Structure_of_Rosenberg_Self-Esteem_Scale_for_Indian_Data)
+
+Bombay Psychologist. 2019.
+
+N/A
+
+2019 
+
+Belhekar, **Vader**, Korgaonkar, and Dattakavi
+
+### Note in Marathi encyclopedia on Psychology (मराठी विश्वकोश - Marathi Vishwakosh)   
+
+[संवेदनिक स्मृति (Sensory Memory)](https://marathivishwakosh.org/46655/)
+and [प्रतिमा (दृश्य) संवेदनिक स्मृति (Iconic Sensory Memory)](https://marathivishwakosh.org/45379/) 
+
+Mumbai, India
+
+2019 
+
+**Vader**
+
+### Acculturation and Personality among Indian students using the NEO-PI-3
+
+Poster for 2020 American Psychological Association
+
+USA
+
+2019  
+
+Heffern, **Vader**, Belhekar, Mellott
+
+
+### Personality Structure in Marathi and English for Maharashtrians: A Psycholexical Investigation 
+
+Paper presentation at Society for Cross Cultural Research Conference (SCCR) 2020
+ 
+Seattle, USA
+ 
+2020 
+
+Belhekar and **Vader**
+
+### MUFFI 2 – A culture sensitive measure of personality based on the Indian context 
+
+Poster presentation at Society for Cross Cultural Research Conference (SCCR) 2020
+
+Seattle, USA
+
+2020
+
+**Vader** and Belhekar
+
+### The Five-Factor Model and Cultural dimensions in the Indian Context 
+
+Poster presentation American Psychological Association (2019) 
+
+USA
+
+2019
+
+Heffern, **Vader**, Belhekar, Mellott
+
+###	Using Factor analysis and Network analysis to delineate Personality Structure among Indian College Students
+
+Poster presentation American Psychological Association (2018) [link](https://www.researchgate.net/publication/331047283_Using_Factor_Analytic_Techniques_and_Network_Analysis_to_Delineate_Personality_Structures_Among_Indian_College_Students)
+
+USA
+
+2018
+
+Heffern, **Vader**, Belhekar, Mellott
+
+### The Nature of Narcissistic Personality: Role of the FFM, Self-Esteem, Social Desirability and Its Impact on Health
+
+Paper presentation at the International Conference of Indian Academy of Applied Psychology 
+
+Jaipur, India
+
+2017
+
+**Vader** and Belhekar
+
+###	Implicit and Explicit attitude towards Gender
+
+Paper presentation (accepted) at Marathi Manasshastra Parishad (translation- Marathi Human studies Conference)
+
+Pune, India
+
+2017
+
+**Vader** and Belhekar
+
+Ongoing studies {data-icon=file}
+--------------------------------------------------------------------------------
+
+### High Dimensionality structure of English Language Type-nouns
+
+Finding the most robust model for type-noun structure in English language
+
+N/A
+
+N/A
+
+**Vader** and Saucier
+
+
+
+### Lexical study of Personality and Values of Hindi Language speakers [link](https://alluring-gram-883.notion.site/Comprehensive-Wordlist-064d20e9b3b745d7b30b4212ddd5d130)
+
+Developing a comprehensive dictionary of personality and value relevant words in Hindi and developing a measure for Hindi speakers
+
+N/A
+
+N/A
+
+**Vader** and Saucier
+
+
+
+### High Dimensionality structure of Persian Language Adjectives [link](https://github.com/vvader24/Persian-Adjectives-High-dimensionality)
+
+Finding the most robust model for adjective structure in Persian language
+
+N/A
+
+N/A
+
+Saucier, Razavi and **Vader**
+
+
+
+### High Dimensionality structure of Malay Language Adjectives [link](https://github.com/vvader24/Malay-Lexical-Study)
+
+Carried out analysis for congruence coefficients for factor structures across Gender and Race sub-samples
+
+N/A
+
+N/A
+
+Thalamayer et. al.
