@@ -22,7 +22,7 @@ source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1tF0cv68f4FHshLLOiDItlCtrtaY1cRXv0TLJrhmDmrk",  
+  data_location = "https://docs.google.com/spreadsheets/d/1tF0cv68f4FHshLLOiDItlCtrtaY1cRXv0TLJrhmDmrk",
   pdf_mode = params$pdf_mode
 )
 
@@ -77,7 +77,7 @@ Programming Skills {#skills}
 CV %>% print_skill_bars()
 ```
 
-Language Skills {#skills}
+Language Skills {#language}
 --------------------------------------------------------------------------------
 
 ```{r}
