@@ -77,6 +77,12 @@ Programming Skills {#skills}
 CV %>% print_skill_bars()
 ```
 
+Language Skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_language_bars()
+```
 
 
 Disclaimer {#disclaimer}

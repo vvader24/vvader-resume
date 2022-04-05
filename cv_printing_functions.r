@@ -44,12 +44,14 @@ create_CV_object <-  function(data_location,
     cv$skills        <- read_gsheet(sheet_id = "language_skills")
     cv$text_blocks   <- read_gsheet(sheet_id = "text_blocks")
     cv$contact_info  <- read_gsheet(sheet_id = "contact_info")
+    cv$communication   <- read_gsheet(sheet_id = "communication")
   } else {
     # Want to go old-school with csvs?
     cv$entries_data <- readr::read_csv(paste0(data_location, "entries.csv"), skip = 1)
     cv$skills       <- readr::read_csv(paste0(data_location, "language_skills.csv"), skip = 1)
     cv$text_blocks  <- readr::read_csv(paste0(data_location, "text_blocks.csv"), skip = 1)
     cv$contact_info <- readr::read_csv(paste0(data_location, "contact_info.csv"), skip = 1)
+    cv$communication   <- readr::read_csv(paste0(data_location, "communication.csv"), skip = 1)
   }
 
 
@@ -204,6 +206,26 @@ print_skill_bars <- function(cv, out_of = 5, bar_color = "#969696", bar_backgrou
   invisible(cv)
 }
 
+#' @description Construct a bar chart of skills
+#' @param out_of The relative maximum for skills. Used to set what a fully filled in skill bar is.
+print_language_bars <- function(cv, out_of = 5, bar_color = "#969696", bar_background = "#d9d9d9", glue_template = "default"){
+  
+  if(glue_template == "default"){
+    glue_template <- "
+<div
+  class = 'skill-bar'
+  style = \"background:linear-gradient(to right,
+                                      {bar_color} {width_percent}%,
+                                      {bar_background} {width_percent}% 100%)\"
+>{skill}</div>"
+  }
+  cv$communication %>%
+    dplyr::mutate(width_percent = round(100*as.numeric(level)/out_of)) %>%
+    glue::glue_data(glue_template) %>%
+    print()
+  
+  invisible(cv)
+}
 
 
 #' @description List of all links in document labeled by their superscript integer.
