@@ -182,6 +182,12 @@ CV %<>% print_text_block('clinical_experience_aside')
 CV %<>% print_section('clinical_experience')
 ```
 
+Leadership experience {data-icon="fa-regular fa-clipboard-check"}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('leadership_positions')
+```
 
 
 <!-- Selected Press (About)  {data-icon=newspaper} -->
